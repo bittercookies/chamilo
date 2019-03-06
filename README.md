@@ -3,13 +3,13 @@
 
 # Sekilas Tentang
 
-**Chamilo** adalah aplikasi web LMS (*Learning Management System*) gratis yang bebas untuk digunakan, dipelajari, dibagikan dan dimodifikasi berdasarkan [lisensi GNU/GPLv3+](https://campus.chamilo.org/documentation/license.html]). Dengan Chamilo, pengajar dapat membuat, mengelola, dan mempublikasikan *course* (perkuliahan) mereka melalui web. Sementara pelajar dapat mengikuti *course*, membaca konten yang dipublikasi, dan berpartisipasi dalam diskusi grup, forum, dan chat. 
+**Chamilo** adalah aplikasi web LMS (*Learning Management System*) *open source* yang bebas untuk digunakan, dipelajari, dibagikan dan dimodifikasi berdasarkan [lisensi GNU/GPLv3+](https://campus.chamilo.org/documentation/license.html]). Dengan Chamilo, pengajar dapat membuat, mengelola, dan mempublikasikan *course* (perkuliahan) mereka melalui web. Sementara pelajar dapat mengikuti *course*, membaca konten yang dipublikasi, dan berpartisipasi dalam diskusi grup, forum, dan chat. 
 
 [`back to top`](#)
 
 # Instalasi
 
-Versi stabil terbaru adalah Chamilo 1.11.8.
+Versi stabil terbaru adalah Chamilo 1.11.x.
 
 #### Kebutuhan Sistem:
 
@@ -114,15 +114,26 @@ Versi stabil terbaru adalah Chamilo 1.11.8.
 
 # Konfigurasi
 
-# Maintenance
-
 # Otomatisasi 
 
 # Cara Pemakaian
 
 # Pembahasan
 
+Chamilo ditulis dalam bahasa pemrograman PHP dan menyetor data dengan MySQL, yang berarti dapat dijalankan di platform apapun selama platform tersebut mendukung Apache + PHP + MySQL. 
+
+Beberapa **kelebihan** Chamilo adalah:
+- Sederhana, mudah untuk digunakan / intuitif, fleksibel.
+- Infrastruktur yang ringan.
+- Open Source, pengguna bebas mempelajari dan memodifikasi aplikasi.
+- Sudah diterjemahkan ke lebih dari 30 bahasa di dunia.
+
+Namun, Chamilo juga memiliki **kekurangan**, yaitu:
+- Komunitas pengguna kurang terpusat untuk berbagi pengembangan aplikasi.
+- User support system kurang memadai.
+
 # Referensi
 
 1. [Chamilo - Documentation](https://campus.chamilo.org/documentation/index.html) - Chamilo.org
-2. [Insall Chamilo e-Learning Platform on Ubuntu 16.04 / 18.04 with Aapche2, MariaDB and PHP 7.2](https://websiteforstudents.com/install-chamilo-e-learning-platform-on-ubuntu-16-04-18-04-with-apache2-mariadb-and-php-7-2/) - Website for Students
+2. [Install Chamilo e-Learning Platform on Ubuntu 16.04 / 18.04 with Apache2, MariaDB and PHP 7.2](https://websiteforstudents.com/install-chamilo-e-learning-platform-on-ubuntu-16-04-18-04-with-apache2-mariadb-and-php-7-2/) - Website for Students
+3. [Chamilo Reviews](https://elearningindustry.com/directory/elearning-software/chamilo) - eLearning Industry
