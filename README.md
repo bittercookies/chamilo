@@ -116,6 +116,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
 
 # Otomatisasi 
 Jika instalasi terlihat sulit, Anda dapat menjalankan script shell yang otomatis akan menjalankan seluruh perintah instalasi pada terminal, seperti [setup.sh](https://github.com/bittercookies/chamilo/blob/master/setup.sh). Untuk menjalankan script, buka terminal dan ketik perntah berikut:
+
     ```bash
     chmod +x setup.sh
     ./setup.sh
