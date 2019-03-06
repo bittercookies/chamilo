@@ -60,7 +60,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
     ```
     ```mysql
     CREATE DATABASE chamilo;
-    CREATE USER 'chamilouser'@'localhost' IDENTIFIED BY 'chamilopassword'
+    CREATE USER 'chamilouser'@'localhost' IDENTIFIED BY 'chamilopassword';
     GRANT ALL ON chamilo.* TO 'chamilouser'@'localhost' with GRANT OPTION;
     FLUSH PRIVILEGES;
     EXIT;
@@ -69,7 +69,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
 
 5. Unduh Chamilo LMS ke direktori kita.
     ```bash
-    wget https://github.com/chamilo/chamilo-lms/releases/download/v1.11.6/chamilo-1.11.6-php7.zip 
+    wget https://github.com/chamilo/chamilo-lms/releases/download/v1.11.8/chamilo-1.11.8-php7.zip 
     ```
 
 
