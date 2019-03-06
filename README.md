@@ -5,7 +5,7 @@
 
 **Chamilo** adalah aplikasi web LMS (*Learning Management System*) gratis yang bebas untuk digunakan, dipelajari, dibagikan dan dimodifikasi berdasarkan [lisensi GNU/GPLv3+](https://campus.chamilo.org/documentation/license.html]). Dengan Chamilo, pengajar dapat membuat, mengelola, dan mempublikasikan *course* (perkuliahan) mereka melalui web. Sementara pelajar dapat mengikuti *course*, membaca konten yang dipublikasi, dan berpartisipasi dalam diskusi grup, forum, dan chat. 
 
-[return](#)
+[`back to top`](#)
 
 # Instalasi
 
@@ -15,8 +15,8 @@ Versi stabil terbaru adalah Chamilo 1.11.8.
 
 - Linux, Windows (98, Me, NT4, 2000, XP, VISTA), Unix atau Mac OS X
 - Apache Web server 2+
-- PHP 5.5+
-- MySQL 5.6+ atau MariaDB versi manapun.
+- PHP 5.5+ (tested on PHP 7.2)
+- MySQL 5.6+ atau MariaDB versi manapun
 
 **Proses Instalasi:**
 
@@ -85,7 +85,7 @@ sudo chown -R www-data:www-data /var/www/html/chamilo
 sudo nano /etc/apache2/sites-available/chamilo.conf
 ```
 
-​		Salin konten berikut:
+Salin konten berikut:
 
 ```
 <VirtualHost *:80>
@@ -105,7 +105,7 @@ sudo nano /etc/apache2/sites-available/chamilo.conf
 </VirtualHost>
 ```
 
-​		Simpan.
+Simpan.
 
 8. Setelah VirtualHost dikonfigurasi di atas, enable lalu restart Apache server.
 
@@ -121,6 +121,8 @@ sudo systemctl restart apache2.service
    3. Konfigurasi database dengan informasi user & db yang telah dibuat di step 3.
    4. Buat akun admin.
 10. Chamilo telah terinstall!
+
+[`back to top`](#)
 
 # Konfigurasi
 
