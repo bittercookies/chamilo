@@ -143,7 +143,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
    7. Proses installasi.
 ![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(6).png)
 
-10. Chamilo telah terinstall!
+   8. Chamilo telah terinstall!
 
 [`back to top`](#)
 
