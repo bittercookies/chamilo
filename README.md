@@ -119,19 +119,19 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
 
 9. Kunjungi alamat web server untuk melanjutkan instalasi.
 
-![1](https://github.com/bittercookies/chamilo/Screenshot_2019-03-06 IPB - IPB University.png)
+![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20IPB%20-%20IPB%20University.png)
       
    1. Klik “Install Chamilo”
    
-![2](https://github.com/bittercookies/chamilo/Screenshot_2019-03-06 — Chamilo installation — Version 1 11 6(1).png)
+![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(1).png)
       
    2. Pastikan semua paket yang dibutuhkan ter-install (tertulis Yes). Apabila iya, klik “New Installation”.
    
-![3](https://github.com/bittercookies/chamilo/Screenshot_2019-03-06 — Chamilo installation — Version 1 11 6(2).png)
+![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(2).png)
   
    3. Konfigurasi database dengan informasi user & db yang telah dibuat di step 3.
    
-![4](https://github.com/bittercookies/chamilo/Screenshot_2019-03-06 — Chamilo installation — Version 1 11 6(3).png)
+![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(3).png)
    
    4. Buat akun admin.
 10. Chamilo telah terinstall!
