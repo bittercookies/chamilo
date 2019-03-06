@@ -5,6 +5,7 @@ read domain
 sudo apt-get update
 sudo apt-get install ssh -y
 sudo apt-get install apache2 -y
+sudo apt-get install mariadb-server mariadb-client
 sudo apt install php libapache2-mod-php php-common php-sqlite3 php-curl php-intl php-mbstring php-xmlrpc php-mysql php-gd php-xml php-cli php-ldap php-apcu php-zip -y
 sudo apt-get install unzip -y
 
@@ -14,10 +15,10 @@ DB_Name='chamilo'
 DB_User='chamilouser'
 DB_Pass='password@1234Chamilo'
 
-sudo mysql -u root ---password=$DB_ROOT_PASS <<MYSQL_SCRIPT
+sudo mysql -u root --password=$DB_ROOT_PASS <<MYSQL_SCRIPT
 CREATE DATABASE $DB_Name;
 CREATE USER '$DB_User'@'localhost' IDENTIFIED BY '$DB_Pass'
-GRANT ALL ON $DB_Name.* TO '$DB_User'@'localhost' with GRANT OPTION;
+GRANT ALL ON $DB_Name.* TO '$DB_User'@'localhost' IDENTIFIED BY '$DB_Pass' with GRANT OPTION;
 FLUSH PRIVILEGES;
 MYSQL_SCRIPT
 
@@ -56,7 +57,6 @@ echo "Open your $domain or http://localhost/chamilo"
 echo "Continue installation in your browser"
 echo "Save this information"
 echo "MySQL Root Password	: $DB_ROOT_PASS"
-echo "Database Name		: $DB_Name"
+echo "Database Name		    : $DB_Name"
 echo "Database Username		: $DB_User"
 echo "Database Password		: $DB_Pass"
-
