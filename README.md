@@ -142,9 +142,18 @@ Namun, Chamilo juga memiliki **kekurangan**, yaitu:
 - User support system kurang memadai.
 
 Perbandingan Chamilo dengan Aplikasi lain:
-    dengan **Moodle**:
-    - Chamilo merupakan web yang bersifat open-source sehingga benar-benar gratis, Moodle juga gratis akan tetapi memiliki beberapa paket yang diharuskan pengguna untuk membayarnya.
-    - Moodle haya bisa digunakan di Windows dan Android, sedangkan Chamilo bisa digunakan di Windows, Android, iOS, Web-based dan Windows Mobile.
+
+**Moodle**:
+
+- Chamilo merupakan web yang bersifat open-source sehingga benar-benar gratis, Moodle juga gratis akan tetapi memiliki beberapa paket yang diharuskan pengguna untuk membayarnya.
+- Moodle haya bisa digunakan di Windows dan Android, sedangkan Chamilo bisa digunakan di Windows, Android, iOS, Web-based dan Windows Mobile.
+
+
+**TalentLMS**:
+
+ - Chamilo merupakan web yang bersifat open-source sehingga benar-benar gratis, TalentLMS juga gratis akan tetapi memiliki beberapa paket yang diharuskan pengguna untuk membayarnya.
+ - TalentLMS memiliki variasi bahasa lebih banyak dibandingkan dengan Chamilo.
+ - TalentLMS dapat dijalankan di Windows, Android, iOS, Web-based, Windows Mobile, dan Linux.
 
 [`back to top`](#)
 
