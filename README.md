@@ -1,8 +1,8 @@
 ![alt text](https://github.com/bittercookies/chamilo/blob/master/800px-Chamilo_LMS.svg.png)
 
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:|:---:|:---:
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Konfigurasi](#konfigurasi)| [Maintenance](#maintenance) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 # Sekilas Tentang
 
@@ -39,7 +39,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
     ```
 
 
-3. Buka file konfigurasi PHP (**php.ini**) dan uncomment / ubah beberapa setting berikut untuk memperlancar instalasi.
+3. Buka file konfigurasi PHP (**php.ini**) dan uncomment / ubah beberapa setting berikut untuk memperlancar instalasi. 
     ```bash
     sudo nano /etc/php/7.2/apache2/php.ini
     ```
@@ -122,7 +122,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
 
 
 
-10. Kunjungi alamat web server untuk melanjutkan instalasi.
+10. Kunjungi alamat web server untuk melanjutkan instalasi. Ikuti installation wizard.
     1. Klik “Install Chamilo”
     
     ![alt text](https://github.com/bittercookies/chamilo/blob/master/images/1.PNG)
@@ -139,21 +139,31 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
     
     ![alt text](https://github.com/bittercookies/chamilo/blob/master/images/4.png)
     
-    4. Melakukan database setting pada MySQL
-   
-    5. Config setting .
-
-    6. Pengecekan kembali sebelum melakukan install.
-    ![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(5).png)
+    5. Melakukan konfigurasi database sesuai database yang telah dibuat pada Step 4.
     
-    7. Proses installasi.
-    ![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(6).png)
+    ![alt text](https://github.com/bittercookies/chamilo/blob/master/images/5.png)
+   
+    6. Membuat akun admin dan melakukan konfigurasi website/portal.
+    
+    ![alt text](https://github.com/bittercookies/chamilo/blob/master/images/6.png)
 
-    8. Chamilo telah terinstall!
+    7. Pengecekan terakhir sebelum melakukan install.
+    ![alt text](https://github.com/bittercookies/chamilo/blob/master/images/7.png)
+    
+    8. Instalasi diproses.
+    ![alt text](https://github.com/bittercookies/chamilo/blob/master/images/8.png)
+
+    9. Chamilo telah terinstall!
+    ![alt text](https://github.com/bittercookies/chamilo/blob/master/images/9.png)
+    
+    Kita bisa mengikuti Security Advice pada box kuning di atas dan mengubah otorisasi pada app/config/ dengan kode:
+    
+    ```bash
+    sudo chmod -R 0555 /var/www/html/chamilo/app/config/
+    ```
+
 
 [`back to top`](#)
-
-# Konfigurasi
 
 # Otomatisasi 
 Jika instalasi terlihat sulit, Anda dapat menjalankan script shell yang otomatis akan menjalankan seluruh perintah instalasi pada terminal, seperti [setup.sh](https://github.com/bittercookies/chamilo/blob/master/setup.sh). Untuk menjalankan script, buka terminal dan ketik perintah berikut:
@@ -166,10 +176,58 @@ chmod +x setup.sh
 
 # Cara Pemakaian
 
-![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20IPB%20-%20IPB%20University.png)
+Pertama, Anda akan dibawa ke halaman login.
 
+![alt text](https://github.com/bittercookies/chamilo/blob/master/images/10.png)
+
+Disini, kita dapat melakukan login sebagai admin dengan mengisi username dan password sesuai akun admin yang telah kita buat pada proses instalasi. Setelah login admin sukses, Anda akan dibawa ke halaman utama (index) admin, yang berisi berbagai fitur Chamilo.
+
+![alt text](https://github.com/bittercookies/chamilo/blob/master/images/11.png)
+
+Beberapa fitur penting dapat dilihat:
+- **Users** dimana admin dapat mengelola database user dari website;
+- **Courses**, yang merupakan fitur terpenting dari aplikasi e-learning;
+- **Portal**, dimana segala informasi berkaitan website, dari konfigurasi/bahasa/plugins sampai news/agenda/statistics. Statistics & Reports dapat memberikan statistik dan laporan aktivitas dan kejadian di website, seperti berapa login users per satuan waktu, dsb. Pada Global Agenda, admin dapat menambahkan kejadian-kejadian penting pada kalender sistem yang dinotifikasikan ke semua pengguna (bersifat global);
+- **Course Sessions**, ekstensi dari Courses dimana sesi-sesi pelajaran dapat diatur;
+- **System** untuk melakukan tindakan yang berhubungan dengan sistem seperti menghapus cache secara manual;
+- **Skills** yang merupakan **salah satu fitur unik Chamilo** dimana pengguna memiliki dan dapat mempelajari skill-skill. Admin dapat menambahkan jenis skill dan memantau skill wheel dan ranking.
+
+Mengeklik tab Homepage akan membawa kita ke tampilan website kita seperti dilihat oleh pengguna umum yang memiliki akun.
+
+![alt text](https://github.com/bittercookies/chamilo/blob/master/images/12.png)
+
+Beberapa fitur unik yang dapat dilihat disini adalah:
+- Chamilo memiliki fitur social networking: pengguna dapat mengirim **invitations** pada pengguna lain untuk menjadi teman (**friends**), masuk ke **social groups** dan kirim-mengirim pesan (**messages**) antar pengguna.
+- Adapula sistem **skills** dan **certificates**, dimana pengguna mendapatkan sertifikat dan "skill" baru yang terpajang pada profilnya, sesuai dengan aktivitasnya di LMS.
 
 [`back to top`](#)
+
+# Konfigurasi
+
+![alt text](https://github.com/bittercookies/chamilo/blob/master/images/konf1.PNG)
+
+Konfigurasi berbagai aspek dari Chamilo dapat diubah pada **Configuration settings** yang terletak di index admin. Beberapa halaman yang relevan:
+
+![alt text](https://github.com/bittercookies/chamilo/blob/master/images/konf2.PNG)
+
+- Pada **Platform**, Anda dapat mengubah nama website, URL, dsb, bahkan mengatur berapa lama sebuah akun boleh tidak aktif sampai akun tersebut dianggap tidak valid.
+- Pada **Course**, Anda dapat menkonfigurasi segala yang berhubungan dengan course, termasuk default hard disk space yang dapat dialokasikan untuk sebuah course.
+- Pada **Tools**, Anda dapat mengatur maximum file upload size, dsb.
+- Pada **Stylesheets**, Anda dapat memperindah website dengan stylesheet custom yang Anda buat.
+- Pada **Facebook**, Anda dapat melakukan *Facebook authentication*.
+
+Direkomendasikan admin mengeksplor **Configuration settings** dan mengubah berbagai konfigurasi agar mendapatkan LMS yang sesuai kebutuhan.
+
+# Maintenance
+
+![alt text](https://github.com/bittercookies/chamilo/blob/master/images/sys1.PNG)
+
+Maintenance pada Chamilo dapat dilakukan melalui **System** pada index admin. Terdapat beberapa opsi yang relevan dalam maintenance sistem.
+
+- **Cleanup of cache and temporary files** dapat digunakan untuk membersihkan temporary files yang disimpan di /app/cache/ secara manual, apabila tidak bisa diotomatisasi dengan cron.
+- **Special exports** dapat digunakan untuk membuat backup.
+- **System status** dapat memberitahu status berbagai konfigurasi seperti: apakah requirements Chamilo terpenuhi, status konfigurasi PHP, dll.
+
 
 # Pembahasan
 
