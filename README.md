@@ -218,6 +218,8 @@ Konfigurasi berbagai aspek dari Chamilo dapat diubah pada **Configuration settin
 
 Direkomendasikan admin mengeksplor **Configuration settings** dan mengubah berbagai konfigurasi agar mendapatkan LMS yang sesuai kebutuhan.
 
+[`back to top`](#)
+
 # Maintenance
 
 ![alt text](https://github.com/bittercookies/chamilo/blob/master/images/sys1.PNG)
@@ -228,6 +230,7 @@ Maintenance pada Chamilo dapat dilakukan melalui **System** pada index admin. Te
 - **Special exports** dapat digunakan untuk membuat backup.
 - **System status** dapat memberitahu status berbagai konfigurasi seperti: apakah requirements Chamilo terpenuhi, status konfigurasi PHP, dll.
 
+[`back to top`](#)
 
 # Pembahasan
 
