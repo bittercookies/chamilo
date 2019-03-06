@@ -141,6 +141,11 @@ Namun, Chamilo juga memiliki **kekurangan**, yaitu:
 - Komunitas pengguna kurang terpusat untuk berbagi pengembangan aplikasi.
 - User support system kurang memadai.
 
+Perbandingan Chamilo dengan Aplikasi lain:
+    dengan **Moodle**:
+    - Chamilo merupakan web yang bersifat open-source sehingga benar-benar gratis, Moodle juga gratis akan tetapi memiliki beberapa paket yang diharuskan pengguna untuk membayarnya.
+    - Moodle haya bisa digunakan di Windows dan Android, sedangkan Chamilo bisa digunakan di Windows, Android, iOS, Web-based dan Windows Mobile.
+
 [`back to top`](#)
 
 # Referensi
@@ -148,5 +153,6 @@ Namun, Chamilo juga memiliki **kekurangan**, yaitu:
 1. [Chamilo - Documentation](https://campus.chamilo.org/documentation/index.html) - Chamilo.org
 2. [Install Chamilo e-Learning Platform on Ubuntu 16.04 / 18.04 with Apache2, MariaDB and PHP 7.2](https://websiteforstudents.com/install-chamilo-e-learning-platform-on-ubuntu-16-04-18-04-with-apache2-mariadb-and-php-7-2/) - Website for Students
 3. [Chamilo Reviews](https://elearningindustry.com/directory/elearning-software/chamilo) - eLearning Industry
+4. [Comparisons Finances Online](https://comparisons.financesonline.com/chamilo-vs-moodle) - Comparison Chamilo vs Moodle vs TalentLMS
 
 [`back to top`](#)
