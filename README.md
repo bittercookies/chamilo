@@ -115,14 +115,17 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
 # Konfigurasi
 
 # Otomatisasi 
-Jika instalasi terlihat sulit, Anda dapat menjalankan script shell yang otomatis akan menjalankan seluruh perintah instalasi pada terminal, seperti [setup.sh](https://github.com/bittercookies/chamilo/blob/master/setup.sh). Untuk menjalankan script, buka terminal dan ketik perntah berikut:
+Jika instalasi terlihat sulit, Anda dapat menjalankan script shell yang otomatis akan menjalankan seluruh perintah instalasi pada terminal, seperti [setup.sh](https://github.com/bittercookies/chamilo/blob/master/setup.sh). Untuk menjalankan script, buka terminal dan ketik perintah berikut:
+```bash
+chmod +x setup.sh
+./setup.sh
+```
 
-    ```bash
-    chmod +x setup.sh
-    ./setup.sh
-    ```
+[`back to top`](#)
 
 # Cara Pemakaian
+
+[`back to top`](#)
 
 # Pembahasan
 
@@ -138,8 +141,12 @@ Namun, Chamilo juga memiliki **kekurangan**, yaitu:
 - Komunitas pengguna kurang terpusat untuk berbagi pengembangan aplikasi.
 - User support system kurang memadai.
 
+[`back to top`](#)
+
 # Referensi
 
 1. [Chamilo - Documentation](https://campus.chamilo.org/documentation/index.html) - Chamilo.org
 2. [Install Chamilo e-Learning Platform on Ubuntu 16.04 / 18.04 with Apache2, MariaDB and PHP 7.2](https://websiteforstudents.com/install-chamilo-e-learning-platform-on-ubuntu-16-04-18-04-with-apache2-mariadb-and-php-7-2/) - Website for Students
 3. [Chamilo Reviews](https://elearningindustry.com/directory/elearning-software/chamilo) - eLearning Industry
+
+[`back to top`](#)
