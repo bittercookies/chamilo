@@ -75,8 +75,8 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
 
 6. Ekstraksi isi zip dan pindahkan ke direktori root default Apache2.
     ```bash
-    unzip chamilo-1.11.6-php7.zip 
-    sudo mv chamilo-1.11.6 /var/www/html/chamilo
+    unzip chamilo-1.11.8-php7.zip 
+    sudo mv chamilo-1.11.8 /var/www/html/chamilo
     ```
     
 
@@ -123,32 +123,29 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
 
 
 10. Kunjungi alamat web server untuk melanjutkan instalasi.
-
-
+    1. Klik “Install Chamilo”
+   
+   
+    2. Pastikan semua paket yang dibutuhkan ter-install (tertulis Yes). Apabila iya, klik “New Installation”.
+    ![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(1).png)
       
-   1. Klik “Install Chamilo”
-   
-   
-   2. Pastikan semua paket yang dibutuhkan ter-install (tertulis Yes). Apabila iya, klik “New Installation”.
-![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(1).png)
-      
-   3. klik "accept" pada pagian step 3-license
-![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(2).png)
-  
-   
-   4. Melakukan database setting pada MySQL
-![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(3).png)
-   
-   5. Config setting .
-![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(4).png)
-
-   6. Pengecekan kembali sebelum melakukan install.
-![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(5).png)
+    3. klik "accept" pada pagian step 3-license
+    ![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(2).png)
     
-   7. Proses installasi.
-![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(6).png)
+    
+    4. Melakukan database setting pada MySQL
+    ![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(3).png)
+   
+    5. Config setting .
+    ![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(4).png)
 
-   8. Chamilo telah terinstall!
+    6. Pengecekan kembali sebelum melakukan install.
+    ![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(5).png)
+    
+    7. Proses installasi.
+    ![alt text](https://github.com/bittercookies/chamilo/blob/master/Screenshot_2019-03-06%20—%20Chamilo%20installation%20—%20Version%201%2011%206(6).png)
+
+    8. Chamilo telah terinstall!
 
 [`back to top`](#)
 
