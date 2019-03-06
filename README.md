@@ -20,6 +20,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
 
 #### Proses Instalasi:
 
+
 1. Pastikan seluruh paket sistem telah ter-install dan *up-to-date*.
     ```bash
     sudo apt-get update
@@ -28,6 +29,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
     sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-sqlite3 php7.2-curl php7.2-intl php7.2-mbstring php7.2-xmlrpc php7.2-mysql php7.2-gd php7.2-xml php7.2-cli php7.2-ldap php7.2-apcu php7.2-zip
     sudo apt-get install unzip
     ```
+
 
 2. Buka file konfigurasi PHP (**php.ini**) dan uncomment / ubah beberapa setting berikut untuk memperlancar instalasi.
     ```bash
@@ -43,6 +45,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
     date.timezone = Asia/Jakarta
     ```
 
+
 3. Siapkan database dan user untuk Chamilo.
     ```bash
     sudo mysql -u root -p
@@ -55,26 +58,31 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
     EXIT;
     ```
 
+
 4. Unduh Chamilo LMS ke direktori kita.
     ```bash
     wget https://github.com/chamilo/chamilo-lms/releases/download/v1.11.6/chamilo-1.11.6-php7.zip 
     ```
+
 
 5. Ekstraksi isi zip dan pindahkan ke direktori root default Apache2.
     ```bash
     unzip chamilo-1.11.6-php7.zip 
     sudo mv chamilo-1.11.6 /var/www/html/chamilo
     ```
+    
 
 6. Pindahkan kepemilikan ke www-data (web server).
     ```bash
     sudo chown -R www-data:www-data /var/www/html/chamilo
     ```
 
+
 7. Buatlah file konfigurasi Apache2 untuk Chamilo LMS bernama **chamilo.conf**.
     ```bash
     sudo nano /etc/apache2/sites-available/chamilo.conf
     ```
+
 
     Salin konten berikut:
     ```
@@ -96,12 +104,14 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
     ```
     Simpan.
 
+
 8. Setelah VirtualHost dikonfigurasi di atas, enable lalu restart Apache server.
     ```bash
     sudo a2ensite chamilo.conf
     sudo a2enmod rewrite
     sudo systemctl restart apache2.service
     ```
+
 
 9. Kunjungi alamat web server untuk melanjutkan instalasi.
    1. Klik “Install Chamilo”
