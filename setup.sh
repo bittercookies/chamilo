@@ -22,9 +22,9 @@ GRANT ALL ON $DB_Name.* TO '$DB_User'@'localhost' IDENTIFIED BY '$DB_Pass' with 
 FLUSH PRIVILEGES;
 MYSQL_SCRIPT
 
-wget https://github.com/chamilo/chamilo-lms/releases/download/v1.11.6/chamilo-1.11.6-php7.zip
-unzip chamilo-1.11.6-php7.zip
-sudo mv chamilo-1.11.6 /var/www/html/chamilo
+wget https://github.com/chamilo/chamilo-lms/releases/download/v1.11.6/chamilo-1.11.8-php7.zip
+unzip chamilo-1.11.8-php7.zip
+sudo mv chamilo-1.11.8-php7 /var/www/html/chamilo
 sudo chown -R www-data:www-data /var/www/html/chamilo
 sudo chmod -R 755 /var/www/html/chamilo
 
