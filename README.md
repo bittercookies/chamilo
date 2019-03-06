@@ -120,19 +120,19 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
 9. Kunjungi alamat web server untuk melanjutkan instalasi.
 
 
- ![alt text](chamilo/Screenshot_2019-03-06 IPB - IPB University.png)
+ ![](Screenshot_2019-03-06 IPB - IPB University.png)
       
    1. Klik “Install Chamilo”
    
- ![alt text](chamilo/Screenshot_2019-03-06 — Chamilo installation — Version 1 11 6(1).png)
+ ![](Screenshot_2019-03-06 — Chamilo installation — Version 1 11 6(1).png)
       
    2. Pastikan semua paket yang dibutuhkan ter-install (tertulis Yes). Apabila iya, klik “New Installation”.
    
-  ![alt text](chamilo/Screenshot_2019-03-06 — Chamilo installation — Version 1 11 6(2).png)
+  ![](Screenshot_2019-03-06 — Chamilo installation — Version 1 11 6(2).png)
   
    3. Konfigurasi database dengan informasi user & db yang telah dibuat di step 3.
    
-   ![alt text](chamilo/Screenshot_2019-03-06 — Chamilo installation — Version 1 11 6(3).png)
+   ![](Screenshot_2019-03-06 — Chamilo installation — Version 1 11 6(3).png)
    
    4. Buat akun admin.
 10. Chamilo telah terinstall!
