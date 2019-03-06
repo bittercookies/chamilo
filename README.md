@@ -23,8 +23,13 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
 
 #### Proses Instalasi:
 
+1. Login ke server menggunakan SSH.
 
-1. Pastikan seluruh paket sistem telah ter-install dan *up-to-date*.
+   ```bash
+   ssh -p 2222 bitter-cookies@localhost
+   ```
+
+2. Pastikan seluruh paket sistem telah ter-install dan *up-to-date*.
     ```bash
     sudo apt-get update
     sudo apt-get install apache2
@@ -34,7 +39,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
     ```
 
 
-2. Buka file konfigurasi PHP (**php.ini**) dan uncomment / ubah beberapa setting berikut untuk memperlancar instalasi.
+3. Buka file konfigurasi PHP (**php.ini**) dan uncomment / ubah beberapa setting berikut untuk memperlancar instalasi.
     ```bash
     sudo nano /etc/php/7.2/apache2/php.ini
     ```
@@ -49,7 +54,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
     ```
 
 
-3. Siapkan database dan user untuk Chamilo.
+4. Siapkan database dan user untuk Chamilo.
     ```bash
     sudo mysql -u root -p
     ```
@@ -62,26 +67,26 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
     ```
 
 
-4. Unduh Chamilo LMS ke direktori kita.
+5. Unduh Chamilo LMS ke direktori kita.
     ```bash
     wget https://github.com/chamilo/chamilo-lms/releases/download/v1.11.6/chamilo-1.11.6-php7.zip 
     ```
 
 
-5. Ekstraksi isi zip dan pindahkan ke direktori root default Apache2.
+6. Ekstraksi isi zip dan pindahkan ke direktori root default Apache2.
     ```bash
     unzip chamilo-1.11.6-php7.zip 
     sudo mv chamilo-1.11.6 /var/www/html/chamilo
     ```
     
 
-6. Pindahkan kepemilikan ke www-data (web server).
+7. Pindahkan kepemilikan ke www-data (web server).
     ```bash
     sudo chown -R www-data:www-data /var/www/html/chamilo
     ```
 
 
-7. Buatlah file konfigurasi Apache2 untuk Chamilo LMS bernama **chamilo.conf**.
+8. Buatlah file konfigurasi Apache2 untuk Chamilo LMS bernama **chamilo.conf**.
     ```bash
     sudo nano /etc/apache2/sites-available/chamilo.conf
     ```
@@ -108,7 +113,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
     Simpan.
 
 
-8. Setelah VirtualHost dikonfigurasi di atas, enable lalu restart Apache server.
+9. Setelah VirtualHost dikonfigurasi di atas, enable lalu restart Apache server.
     ```bash
     sudo a2ensite chamilo.conf
     sudo a2enmod rewrite
@@ -117,7 +122,7 @@ Versi stabil terbaru adalah Chamilo 1.11.x.
 
 
 
-9. Kunjungi alamat web server untuk melanjutkan instalasi.
+10. Kunjungi alamat web server untuk melanjutkan instalasi.
 
 
       
